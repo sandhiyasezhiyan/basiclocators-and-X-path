@@ -23,7 +23,7 @@ public class CheckBox {
 	    driver.findElement(By.xpath("//div[@id='j_idt87:multiple_panel']/div[2]/ul[1]/li[2]/div[1]/div[2]")).click();
 	    driver.findElement(By.xpath("//div[@id='j_idt87:multiple_panel']/div[2]/ul[1]/li[1]/div[1]/div[2]")).click();
 	    
-		//driver.close();
+		driver.close();
 		
 	}
 
