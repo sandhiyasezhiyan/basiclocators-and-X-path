@@ -14,7 +14,7 @@ public static void main(String[] args) {
 	driver.get("https://leafground.com/button.xhtml");
 	driver.manage().window().maximize();
 	System.out.println(driver.findElement(By.xpath("(//span[text()='Click']/following::div)[3]")).isDisplayed());
-	
+	driver.navigate().to("https://leafground.com/dashboard.xhtml;jsessionid=node0hr5el6cvg5ky11hcwjxak79k3433223.node0");
 	System.out.println(driver.findElement(By.xpath("(//div[@class='card'])[2]")).isEnabled());
 	
 	WebElement ele = driver.findElement(By.xpath("//span[text()='Submit']"));
